@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 1) Write a program to check if a number is positive, negative, or zero using if–else.*/
+        /*console.log("1) Write a program to check if a number is positive, negative, or zero using if–else.")
+        num=parseInt(prompt("Enter number: "))
+        if(num>0)
+    {
+        console.log(num," is positive")
+    }
+    else if(num<0)
+    {
+        console.log(num, " is negative")
+    }
+    else
+    {
+        console.log(num," is zero")
+    }*/
+    /* 2) Use the ternary operator to find the maximum of two numbers.*/
+   /* console.log("2) Use the ternary operator to find the maximum of two numbers.")
+    a=parseInt(prompt('Enter first number: '))
+    b=parseInt(prompt('Enter second number'))
+    res=a>b?console.log(`${a} is maximum`): console.log(`${b} is maximum`)
+*/
+/* 3) Check if a number is even or odd using the modulus operator*/
+/*console.log("3) Check if a number is even or odd using the modulus operator")
+num=parseInt(prompt('Enter number: '))
+if(num%2==0)
+{
+console.log(`${num} is an even number`)
+}
+else
+{
+console.log(`${num} is an odd number`)
+}
+*/
+/* 4) Compare two numbers and print whether they are equal or not equal using == and !=.
+*/
+/*console.log("4) Compare two numbers and print whether they are equal or not equal using == and !=.")
+i) Using == operator
+a=parseInt(prompt('Enter first number: '))
+b=parseInt(prompt('Enter second number'))
+if(a==b)
+{
+    console.log(`${a} is equal to ${b}`)
+}
+else
+{
+    console.log(`${a} is not equal to ${b}`)
+}
+ii) using != operator
+a=parseInt(prompt('Enter first number: '))
+b=parseInt(prompt('Enter second number'))
+if(a!=b)
+{
+    console.log(`${a} is not equal to ${b}`)
+}
+else
+{
+    console.log(`${a} is equal to ${b}`)
+}
+*/
+/* 5) Determine if a number is divisible by 5 and 11 using logical operators.*/
+/*console.log("5) Determine if a number is divisible by 5 and 11 using logical operators.")
+num=parseInt(prompt("Enter number"))
+if(num%5==0 && num%11==0)
+{
+    console.log(`${num} is divisible by both 5 and 11`)
+}
+else
+{
+    console.log(`${num} is not divisible by both 5 and 11`)
+}
+    */
+/* 6) Use && and || to check if a number lies between 10 and 50.*/
+/* use && operator*/
+/*
+num=parseInt(prompt('Enter number: '))
+if(num>10 && num<50)
+{
+    console.log(`${num} lies between 10 and 50`)
+}
+else
+{
+    console.log(`${num} does not lies between 10 and 50`)
+}
+    */
+/* use || operator*/
+/*num=parseInt(prompt('Enter number: '))
+if(num<=10 || num>=50)
+{
+    console.log(`${num} does not lie between 10 and 50`)
+}
+else
+{
+    console.log(`${num}  lies between 10 and 50`)
+}
+*/
+/* Write a program to check if a character is a vowel or consonant using if–else ladder.*/
+/*ch=prompt("Enter a character: ")
+console.log("7) Write a program to check if a character is a vowel or consonant using if–else ladder.")
+if (
+    ch === 'a' || ch === 'e' || ch === 'i' ||
+    ch === 'o' || ch === 'u' ||
+    ch === 'A' || ch === 'E' || ch === 'I' ||
+    ch === 'O' || ch === 'U'
+) {
+    console.log(`${ch} is an vowel`);
+} else {
+    console.log(`${ch} is not an vowel`);
+}
+    */
+/*8) Use the assignment operators (+=, -=, *=, /=) to update a variable and print results.*/
+/* console.log("8) Use the assignment operators (+=, -=, *=, /=) to update a variable and print results.")
+num=parseInt(prompt("Enter first value:"))
+console.log("Use of += operator",num+=10)
+console.log("Use of -= operator: ", num-=10)
+console.log("Use of *= operator: ",num*=10)
+console.log("Use of /= operator: ",num/=10)*/
+/*9) Check if a year is a leap year using nested if–else */
+/*console.log("9) Check if a year is a leap year using nested if–else")
+year=prompt("Enter year: ")
+if((year%4==0 && year%100!=0)||year%4==0)
+{
+    console.log(`${year} is a leap year`)
+}
+else
+{
+    console.log(`${year} is not a leap year`)
+
+}*/
+/* 10) Use the strict equality operator (===) to compare a number and a string.*/
+/*console.log("10) Use the strict equality operator (===) to compare a number and a string")
+num=10
+str="10"
+if(num===str)
+{
+    console.log("Equal")
+}
+else
+{
+    console.log("Not equal")
+}
+    */
+/* 11) Write a program to find the largest of three numbers using if–else ladder.*/
+/*console.log("11) Write a program to find the largest of three numbers using if–else ladder.")
+num1=parseInt(prompt("Enter first number"))
+num2=parseInt(prompt("Enter second number"))
+num3=parseInt(prompt("Enter third number"))
+if(num1>num2 && num1>num3)
+{
+    console.log(`${num1} is greater`)
+}
+else if(num2>num1 && num2>num3)
+{
+    console.log(`${num2} is greater`)
+}
+else
+{
+    console.log(`${num3} is greater`)
+}
+    */
+   /* 12) Use logical operators to check if a number is multiple of both 3 and 7. */
+/*console.log("12) Use logical operators to check if a number is multiple of both 3 and 7.")
+num=parseInt(prompt("Enter a number"))
+if(num%3==0 && num%7==0)
+{
+    console.log(`${num} is a multiple of both 3 and 7`)
+}
+else
+{
+    console.log(`${num} is not a multiple of both 3 and 7`)
+
+}
+    */
+/* 13) Evaluate an expression using precedence of arithmetic operators and explain the output.*/
+/*console.log("13) Evaluate an expression using precedence of arithmetic operators and explain the output.")
+result = 10 + 5 * 2 - 8 / 4;
+console.log(result);
+*/
+/* 14)Check if a number is within range 100–200 or outside using && and ||.*/
+/*console.log("Check if a number is within range 100–200 or outside using &&.")
+num = parseInt(prompt("Enter a number: "))
+
+if (num >= 100 && num <= 200) {
+    console.log(`${num} is within the range`);
+} else {
+    console.log(`${num} is outside the range`);
+}*/
+
+/*console.log("Check if a number is within range 100–200 or outside using ||.")
+num = parseInt(prompt("Enter a number: "))
+if (num < 100 || num > 200) {
+    console.log(`${num} is outside the range`);
+} else {
+    console.log(`${num} is within the range`);
+}*/
+/* 15) Use relational operators to compare two variables and print which one is greater.*/
+/*console.log("15) Use relational operators to compare two variables and print which one is greater.")
+a=parseInt(prompt("Enter number: "))
+b=parseInt(prompt("Enter number: "))
+if(a>b)
+{
+    console.log(`${a} is greater`)
+}
+else
+{
+    console.log(`${b} is greater`)
+}
+    */
+/* 16)Write a program to determine if a number is positive and even, positive and odd, or negative. */
+/*console.log("16) Write a program to determine if a number is positive and even, positive and odd, or negative.")
+num=parseInt(prompt("Enter a number: "))
+if(num>0)
+{
+    if(num%2==0)
+{
+    console.log(`${num} is positive and it is an even number`)
+}
+else
+{
+    console.log(`${num} is positive and it is an odd number`)
+}
+}
+else if(num==0)
+{
+    console.log(`${num} is neither positive nor negative and it is an even number`)
+}
+else
+{
+console.log(`${num} is negative`)
+}*/
+/*17) Use the ternary operator to assign grades based on marks. */
+/*console.log("17) Use the ternary operator to assign grades based on marks.")
+marks = parseInt(prompt("Enter marks: "))
+grade = marks >= 30 ? "Pass" :"False"
+console.log("Grade:", grade);
+*/
+/*18) Check if a number is divisible by 2 or 3 but not both */
+/*console.log("18) Check if a number is divisible by 2 or 3 but not both")
+num=prompt("Enter number: ")
+if ((num % 2 === 0 && num % 3 !== 0) || (num % 2 !== 0 && num % 3 === 0)) {
+    console.log("Divisible by 2 or 3 but not both");
+} else {
+    console.log("Condition is not satisfied");
+}*.
+/* 19)Write a program to find the absolute value of a number using if–else. */
+/*console.log("19) Write a program to find the absolute value of a number using if–else.")
+num=parseInt(prompt("Enter number:"))
+if(num<0)
+{
+    num=(-1)*num
+    console.log(num)
+}
+else
+{
+    console.log(num)
+}*/
+/* 20) Use logical operators to verify if a number is not between 10 and 20.*/
+/*console.log("20) Use logical operators to verify if a number is not between 10 and 20.")
+num = parseInt(prompt("Enter number: "));
+if (num < 10 || num > 20) {
+    console.log(`${num} is Not between 10 and 20`);
+} else {
+    console.log(`${num} is between 10 and 20`);
+}*/
+/*21) Write a program to check if three sides can form a triangle using relational operators. */
+/*
+console.log("21) Write a program to check if three sides can form a triangle using relational operators.")
+a = parseInt(prompt("Enter the first side"))
+b = parseInt(prompt("Enter the second side"))
+c = parseInt(prompt("Enter the third side"))
+if (a + b > c && a + c > b && b + c > a) {
+    console.log("Triangle can be formed");
+} else {
+    console.log("Triangle cannot be formed");
+}
+    */
+/*22) Use nested if–else to determine if a number is positive, negative, or zero, and also check if it’s even or odd.*/
+/*console.log("22) Use nested if–else to determine if a number is positive, negative, or zero, and also check if it’s even or odd.")
+num=parseInt(prompt("Enter number: "))
+if(num>0)
+{
+    if(num%2==0)
+{
+    console.log(`${num} is positive and an even number`)
+}
+else
+{
+    console.log(`${num} is positive and an odd number`)
+}
+}
+else if(num<0)
+{
+    if(num%2==0)
+{
+    console.log(`${num} is negative and an even number`)
+}
+else
+{
+    console.log(`${num} is negative and odd number`)
+}
+}
+else{
+    console.log(`${num} is neither positive nor negative and it is an even number`)
+}
+*/
+/* 23) Create a grading system using else-if ladder: A, B, C, D, F based on score ranges.*/
+/*console.log("23) Create a grading system using else-if ladder: A, B, C, D, F based on score ranges.")
+score=prompt("Enter score: ")
+if(score>=90 && score<=100)
+{
+    console.log(`Grade A`)
+}
+else if(score>=80)
+{
+    console.log(`Grade B`)
+}
+else if(score>=70)
+{
+    console.log(`Grade C`)
+}
+else if(score>=60)
+{
+    console.log('Grade D')
+}
+else
+{
+    console.log('Grade F')
+}
+*/
+/* 24) Use logical operators to check if a number is prime or composite (without loops, assume small fixed values).*/
+/*console.log("24) Use logical operators to check if a number is prime or composite (without loops, assume small fixed values).")
+ num = parseInt(prompt("Enter number: "))
+if(num<=1)
+{
+    console.log(`${num} is not a prime number`)
+}
+else if(num==2 || num==3|| num==5 || num==7 || num==11 || num==13||num==17||num==19)
+{
+    console.log(`${num} is a prime number`)
+}
+else
+{
+    console.log(`${num} is a composite number`)
+}
+*/
+/* 25) Write a program to compare two expressions and print which one has higher precedence*/
+/*console.log("25) Write a program to compare two expressions and print which one has higher precedence")
+ a = 5 + 3 * 2;//here multiplication is performed first because it has more precedence than addition
+ b = (5 + 3) * 2;
+//Paranthesis has higher precendence so it evaluates first and later on multiplication is being performed.
+console.log(a); // 11
+console.log(b); // 16
+*/
+/* 26) Use ! (NOT operator) to invert a boolean condition and explain the output.*/
+/*console.log("26) Use ! (NOT operator) to invert a boolean condition and explain the output.")
+a=true;
+console.log(!a)
+b=false
+console.log(!b)
+*/
+/* 27)Write a program to check if a number is multiple of 4 but not of 8. */
+/*console.log("27) Write a program to check if a number is multiple of 4 but not of 8.")
+num=parseInt(prompt("Enter number: "))
+if(num%4==0 && num%8!=0)
+{
+    console.log(`${num} is a multiple of 4 but not 8`)
+}
+else if(num%8==0 && num%4==0)
+{
+    console.log(`${num} is multiple of both 4 and 8`)
+}
+*/
+/* 28) Use nested if–else to determine if a number is divisible by both 2 and 5, only 2, only 5, or neither.*/
+/*console.log("28) Use nested if–else to determine if a number is divisible by both 2 and 5, only 2, only 5, or neither.")
+num=parseInt(prompt("Enter number: "))
+if(num%2==0 && num%5==0)
+{
+    console.log(`${num} is divisible by both 2 and 5 `)
+}
+else if(num%2==0)
+{
+    console.log(`${num} is divisible by 2`)
+}
+else if(num%5==0)
+{
+    console.log(`${num} is divisible by 5`)
+}
+else
+{
+    console.log(`${num} is neither divisible by 2 or 5`)
+}
+*/
+/* 29)Write a program to check if a number is within 1–100, 101–500, or above 500 using else-if ladder. */
+/*console.log("29) Write a program to check if a number is within 1–100, 101–500, or above 500 using else-if ladder.")
+num=parseInt(prompt("Enter number"))
+
+if (num >= 1 && num <= 100) {
+    console.log(`${num} is between 1 and 100`);
+}
+else if (num >= 101 && num <= 500) {
+    console.log(`${num} is between 101 and 500`);
+}
+else if (num > 500) {
+    console.log(`${num} is above 500`);
+}
+else {
+    console.log(`${num} is less than 1`);
+}
+*/
+/* 30) Use arithmetic and logical operators to verify if (a + b) > (c * d) and print the result.*/
+/*console.log("30) Use arithmetic and logical operators to verify if (a + b) > (c * d) and print the result.")
+a=10
+b=7
+c=6
+d=9
+res=(a+b)>(c*d)
+console.log(res)
+console.log("Condition using logical operator && ")
+if((a+b)>(c*d) && a>0 && b>0)
+{
+    console.log("true")
+}
+else{
+    console.log("false")
+}
+*/
+/* 31) Write a program using if–else ladder to simulate a simple calculator (only +, -, *, /, %). */
+/*console.log("31) Write a program using if–else ladder to simulate a simple calculator (only +, -, *, /, %).")
+a=parseInt(prompt("Enter first operand: "))
+b=parseInt(prompt("Enter second operand: "))
+operator=prompt("Enter any of the operator: +, -, *,/,%")
+if(operator=='+')
+{
+    console.log(a+b)
+}
+else if(operator=='-')
+{
+    console.log(a-b)
+}
+else if(operator=='*')
+{
+    console.log(a*b)
+}
+else if(operator=='/')
+{
+    console.log(a/b)
+}
+else if(operator=='%')
+{
+    console.log(a%b)
+}
+else
+{
+    console.log("You have entered invalid operator")
+}
+*/
+/* 32)Use nested if–else to determine if a number is a perfect square or not. */
+/*console.log("32) Use nested if–else to determine if a number is a perfect square or not.")
+n=parseInt(prompt("Enter number: "))
+if(n==1 || n==4 ||n==9||n==25||n==36||n==49||n==64||n==81||n==100)
+{
+    console.log(`${n} is a perfect square`)
+}
+else
+{
+    console.log(`${n} is not a perfect square`)
+}*/
+/* 33) Create a program that checks if a number is divisible by 2, 3, and 5 simultaneously, and prints a custom message. */
+/*console.log('33) Create a program that checks if a number is divisible by 2, 3, and 5 simultaneously, and prints a custom message.')
+n=parseInt(prompt('Enter number: '))
+if(n%2==0 && n%3==0 && n%5==0)
+{
+    console.log(`${n} is divisible by 2,3 and 5 simultaneously`)
+}
+else
+{
+    console.log(`${n} is not divisible by 2,3 and 5 simultaneously`)
+
+}
+*/
+/* 34)Use logical operators to validate if a number satisfies (num > 50 && num < 100) || (num > 200 && num < 300). */
+/*num = parseInt(prompt("Enter number: "))
+console.log("34) Use logical operators to validate if a number satisfies (num > 50 && num < 100) || (num > 200 && num < 300).")
+if ((num > 50 && num < 100) || (num > 200 && num < 300)) {
+    console.log(`${num} satisfies the condition`)
+} else {
+    console.log(`${num} does not satisfy the condition`)
+}*/
+/* 35) Write a program to check if a number is greater than 100, less than 0, or between 0 and 100, and print messages accordingly. */
+/*console.log("35) Write a program to check if a number is greater than 100, less than 0, or between 0 and 100, and print messages accordingly.")
+n=parseInt(prompt("Enter number: "))
+if(n>100)
+{
+    console.log(`${n} is greater than 100`)
+}
+else if(n>=0 && n<=100)
+{
+    console.log(`${n} lies between 0 and 100`)
+}
+else
+{
+    console.log(`${n} is lesser than 0`)
+}
+*/
+/* 36) Use nested if–else to simulate a traffic light system based on color input (red, yellow, green). */
+/*color=prompt("Choose from the following colors: red, yellow, green")
+if(color=="red")
+{
+    console.log("red signal")
+}
+else if(color=="green")
+{
+    console.log("green signal")
+}
+else if(color=="yellow")
+{
+    console.log("yellow signal")
+}
+else
+{
+    console.log("Ivalid color had been entered. Enter color as mentioned...")
+}
+*/
+/*37)Write a program to check if a number is divisible by both 2 and 3, but not by 5. */
+console.log("37) Write a program to check if a number is divisible by both 2 and 3, but not by 5.")
+num=parseInt(prompt("Enter number: "))
+if(num%2==0 && num%3==0 && num%5!=0)
+{
+    console.log(`${num} is divisble by both 2 and 3 but not by 5` )
+}
+else
+{
+    console.log(`${num} does not satisfies the given condition`)
+}
+</script>  
+</body>
+</html>
